@@ -16,12 +16,12 @@
   background-color: var(--primary-background-color);
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:active {
-    fill: var(--primary-background-color);
-    background-color: var(--accent-color);
-  }
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: var(--primary-background-color);
+      background-color: var(--accent-color);
+    }
 }
 
 .social-list__link--inverse {
